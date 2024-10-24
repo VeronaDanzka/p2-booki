@@ -3,6 +3,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -112,6 +116,7 @@ main{
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    scroll-margin-top: 79px;
 }
 
 /****** Populaires ***********/
@@ -157,6 +162,9 @@ main{
 
 .populaires-cards .card-rating {
     margin-bottom: 5px;
+}
+.section-activite {
+    scroll-margin-top: 79px;
 }
 
 
