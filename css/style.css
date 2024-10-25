@@ -35,6 +35,134 @@ a {
     text-decoration: none;
 }
 
+/**** Header *****/
+header {
+    display: flex;
+    width: 1340px;
+    height: 79px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 10000;
+}
+header img{
+    width: 61.09px;
+    height: 19px;
+    margin-top: 30px;
+}
+nav {
+    display: flex;
+    gap: 68px;
+    
+}
+nav a{
+    padding-top: 16px;
+    position: relative;   
+    size: 16px;
+}
+nav a:hover{
+    padding-top: 14px;
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+
+}
+
+/**** section filtre ****/
+h1 {
+    font-size: 22px;
+    margin-bottom:0;
+}
+.h1-subtitle {
+    font-weight:400;
+    font-size:16px;
+    margin-top:8px;
+}
+form {
+    display: flex;
+    height: 49px;
+    margin-top: 35px;
+}
+form div {
+    width: 50px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+form input {
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+    border-right: none;
+    border-left: none;
+    width: 195px;
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+}
+form input[type="text"] {
+    text-align: center;
+}
+.fa-search {
+    display:none;
+}
+form button {
+    background-color:#0065FC;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    padding: 15px 16px 15px 16px;
+}
+i {
+    font-size: 20px;
+}
+.fa-location-dot {
+    color:black;
+    position: relative;
+    top: 15px;
+    left: 18px;
+}
+.filtre-buttons {
+    display:flex;
+    gap: 15px;
+    margin-top: 35px;
+    height: 50px;
+}
+.filtre-buttons p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.filtre-buttons div {
+    display: flex;
+    gap: 15px;
+}
+.filtre-buttons div button {
+    background-color:#ffffff;
+    border-radius: 25px;
+    border: solid 2px #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filtre-buttons div button:hover {
+    background-color: #DEEBFF;
+}
+
+.fa-info {
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    border: solid 1px #D9D9D9;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 10px
+
+}
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -62,44 +190,12 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
-/**** Header *****/
-header {
-    display: flex;
-    width:1340px;
-    height: 79px;
-    justify-content: space-between;
-    position:fixed;
-    background-color: #ffffff;
-    z-index: 10000;
-}
-header img{
-    width: 61.09px;
-    height: 19px;
-    margin-top: 30px;
-}
-nav {
-    display: flex;
-    gap: 68px;
-    
-}
-nav a{
-    padding-top: 16px;
-    position: relative;   
-    size: 16px;
-}
-nav a:hover{
-    padding-top: 14px;
-    border-top: solid 2px #0065FC;
 
-}
-nav a:active{
-    padding-top: 14px;
-    border-top: solid 2px #0065FC;
-
-}
 main{
     margin-top: 109px;
 }
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -163,7 +259,7 @@ main{
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-.section-activite {
+.section-activites {
     scroll-margin-top: 79px;
 }
 
