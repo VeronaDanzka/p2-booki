@@ -132,6 +132,7 @@ i {
 .filtre-buttons p {
     font-size: 18px;
     font-weight: 700;
+    margin-top: 15px;
 }
 .filtre-buttons div {
     display: flex;
@@ -152,6 +153,10 @@ i {
     background-color: #DEEBFF;
 }
 
+main section p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
 .fa-info {
     width: 25px;
     height: 24px;
