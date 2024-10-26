@@ -233,6 +233,7 @@ i {
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
     padding: 5px 5px 15px 5px;
+    height: 207px;
 
 }
 .hebergement-img{
@@ -248,7 +249,7 @@ i {
     gap: 8px;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 4px;
 }
 .hebergement-card-content .card-title{
     margin: 0;
