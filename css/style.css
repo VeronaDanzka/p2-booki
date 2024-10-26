@@ -34,144 +34,11 @@ a {
     color: inherit;
     text-decoration: none;
 }
-
-/**** Header *****/
-header {
-    display: flex;
-    width: 1340px;
-    height: 79px;
-    justify-content: space-between;
-    position: fixed;
-    background-color: #ffffff;
-    z-index: 10000;
-}
-header img{
-    width: 61.09px;
-    height: 19px;
-    margin-top: 30px;
-}
-nav {
-    display: flex;
-    gap: 68px;
-    
-}
-nav a{
-    padding-top: 16px;
-    position: relative;   
-    size: 16px;
-}
-nav a:hover{
-    padding-top: 14px;
-    border-top: solid 2px #0065FC;
-    color: #0065FC;
-
-}
-
-/**** section filtre ****/
-h1 {
-    font-size: 22px;
-    margin-bottom:0;
-}
-.h1-subtitle {
-    font-weight:400;
-    font-size:16px;
-    margin-top:8px;
-}
-form {
-    display: flex;
-    height: 49px;
-    margin-top: 35px;
-}
-form div {
-    width: 50px;
-    background-color: #F2F2F2;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-}
-form input {
-    border-top: solid 1px #F2F2F2;
-    border-bottom: solid 1px #F2F2F2;
-    border-right: none;
-    border-left: none;
-    width: 195px;
-    font-size: 18px;
-    font-weight: 700;
-    color:black;
-}
-form input[type="text"] {
-    text-align: center;
-}
-.fa-search {
-    display:none;
-}
-form button {
-    background-color:#0065FC;
-    color: #ffffff;
-    font-weight: 700;
-    font-size: 18px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border: none;
-    padding: 15px 16px 15px 16px;
-}
-i {
-    font-size: 20px;
-}
-.fa-location-dot {
-    color:black;
-    position: relative;
-    top: 15px;
-    left: 18px;
-}
-.filtre-buttons {
-    display:flex;
-    gap: 15px;
-    margin-top: 35px;
-    height: 50px;
-}
-.filtre-buttons p {
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 15px;
-}
-.filtre-buttons div {
-    display: flex;
-    gap: 15px;
-}
-.filtre-buttons div button {
-    background-color:#ffffff;
-    border-radius: 25px;
-    border: solid 2px #D9D9D9;
-    padding: 4px 19px 4px 19px;
-    font-size: 17px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.filtre-buttons div button:hover {
-    background-color: #DEEBFF;
-}
-
-main section p {
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-.fa-info {
-    width: 25px;
-    height: 24px;
-    border-radius: 50%;
-    border: solid 1px #D9D9D9;
-    text-align: center;
-    line-height: 23px;
-    margin-right: 10px
-
-}
-
 .section-title {
     margin: 0;
     font-size: 22px;
 }
+
 
 .card {
     background-color: white;
@@ -201,6 +68,140 @@ main{
 }
 
 
+/**** Header *****/
+header {
+    display: flex;
+    width: 1340px;
+    height: 79px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 10000;
+}
+.logo-booki {
+    width: 61.09px;
+    height: 19px;
+    margin-top: 30px;
+}
+.nav-anchor {
+    display: flex;
+    gap: 68px;
+    
+}
+.anchor-link{
+    padding-top: 16px;
+    position: relative;   
+    size: 16px;
+}
+.anchor-link:hover{
+    padding-top: 14px;
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+
+}
+
+/**** section filtre ****/
+h1 {
+    font-size: 22px;
+    margin-bottom:0;
+}
+.h1-subtitle {
+    font-weight:400;
+    font-size:16px;
+    margin-top:8px;
+}
+.form-recherche {
+    display: flex;
+    height: 49px;
+    margin-top: 35px;
+}
+.i-location {
+    width: 50px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.input-recherche {
+    border-top: solid 1px #F2F2F2;
+    border-bottom: solid 1px #F2F2F2;
+    border-right: none;
+    border-left: none;
+    width: 195px;
+    font-size: 18px;
+    font-weight: 700;
+    color:black;
+}
+.input-recherche[type="text"] {
+    text-align: center;
+}
+.fa-search {
+    display:none;
+}
+.form-btn {
+    background-color:#0065FC;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    padding: 15px 16px 15px 16px;
+}
+i {
+    font-size: 20px;
+}
+.fa-location-dot {
+    color:black;
+    position: relative;
+    top: 15px;
+    left: 18px;
+}
+.container-filtre-btns {
+    display:flex;
+    gap: 15px;
+    margin-top: 35px;
+    height: 50px;
+}
+.filtre-txt {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.filtre-btns-axes {
+    display: flex;
+    gap: 15px;
+}
+.filtre-btns {
+    background-color:#ffffff;
+    border-radius: 25px;
+    border: solid 2px #D9D9D9;
+    padding: 4px 19px 4px 19px;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filtre-btns:hover {
+    background-color: #DEEBFF;
+}
+
+.info-txt {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.fa-info {
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    border: solid 1px #D9D9D9;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 10px
+
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -218,6 +219,46 @@ main{
 .hebergements {
     width: 65%;
     scroll-margin-top: 79px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.container-card-hebergements{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 30px;
+}
+.hebergement-card {
+    background-color:white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+    padding: 5px 5px 15px 5px;
+
+}
+.hebergement-img{
+    max-width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+.hebergement-card-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.hebergement-card-content .card-title{
+    margin: 0;
+}
+.hebergement-card-content .card-subtitle{
+    margin: 0;
+    font-size: 14px;
+}
+.link-extend{
+    font-weight: 700;
 }
 
 /****** Populaires ***********/
