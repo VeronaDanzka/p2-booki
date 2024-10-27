@@ -91,7 +91,7 @@ header {
 .anchor-link{
     padding-top: 16px;
     position: relative;   
-    size: 16px;
+    font-size: 16px;
 }
 .anchor-link:hover{
     padding-top: 14px;
@@ -237,7 +237,7 @@ i {
 
 }
 .hebergement-img{
-    max-width: 100%;
+    width: 100%;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
