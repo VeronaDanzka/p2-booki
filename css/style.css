@@ -28,6 +28,9 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 a {
@@ -310,7 +313,40 @@ i {
     scroll-margin-top: 79px;
 }
 
+/***** activites *****/
+.section-activites{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+.container-cards-activites{
+    display: grid;
+    grid-template-columns: 297px 297px 297px 297px;
+    gap: 30px;
 
+}
+.card-activite{
+    padding: 0;
+    margin: 0;
+    height: 439px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+}
+.img-activite{
+    width: 100%;
+    object-fit: cover;
+    height: 380px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card-activite-txt{
+    padding: 17px 19px 20px 19px;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
