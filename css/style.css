@@ -71,6 +71,8 @@ main{
 }
 
 
+
+
 /**** Header *****/
 header {
     display: flex;
@@ -347,7 +349,25 @@ i {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
+footer{
+    display: flex;
+    background-color: #F2F2F2;
+}
+.footer-title{
+    margin: 0;
+    font-weight: 700;
+}
+.footer-links{
+    padding: 20px 20px 15px 20px;
+    line-height: 2;
+    width: 446px;
 
+}
+.footer-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
