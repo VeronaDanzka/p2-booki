@@ -72,20 +72,14 @@ a {
 /**** Header *****/
 header {
     display: flex;
-    width: 100%;
-    height: 79px;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-    background-color: #ffffff;
-    z-index: 10000;
 }
 .logo-booki {
     width: 61.09px;
     height: 19px;
     margin-top: 30px;
 }
-.nav-anchor {
+.nav-anchors {
     display: flex;
     gap: 68px;
     
@@ -148,6 +142,7 @@ h1 {
     border-bottom-right-radius: 15px;
     border: none;
     padding: 15px 16px 15px 16px;
+    cursor: pointer;
 }
 i {
     font-size: 20px;
@@ -170,7 +165,8 @@ i {
     margin-top: 15px;
 }
 .filtre-btns-axes {
-    display: flex;
+    display: grid;
+    grid-template-columns: 173px 134px 170px 167px;
     gap: 15px;
 }
 .filtre-btns {
@@ -183,6 +179,7 @@ i {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .filtre-btns:hover {
     background-color: #DEEBFF;
@@ -228,14 +225,17 @@ i {
 .container-card-hebergements{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 30px;
 }
 .hebergement-card {
-    background-color:white;
+    background-color: white;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
-    padding: 5px 5px 15px 5px;
-    height: 207px;
+    padding: 5px 5px 5px 5px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 124px 1fr;
 
 }
 .hebergement-img{
@@ -243,15 +243,17 @@ i {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
-    aspect-ratio: 16/9;
+    height: 124px;
 }
 .hebergement-card-content{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 8px;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 4px;
+    height: 100%;
 }
 .hebergement-card-content .card-title{
     margin: 0;
@@ -328,6 +330,8 @@ i {
     height: 439px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
+    display: grid;
+    grid-template-rows: 380px 1fr;
 }
 .img-activite{
     width: 100%;
@@ -337,11 +341,13 @@ i {
     border-top-left-radius: 20px;
 }
 .card-activite-txt{
-    padding: 17px 19px 20px 19px;
+    padding: 0px 19px 0px 19px;
     font-size: 16px;
     font-weight: 700;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 footer{
     display: flex;
