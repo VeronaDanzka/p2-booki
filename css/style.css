@@ -90,8 +90,8 @@ header {
 }
 .anchor-link:hover{
     padding-top: 14px;
-    border-top: solid 2px #0065FC;
-    color: #0065FC;
+    border-top: solid 2px var(--main-color);
+    color: var(--main-color);
 
 }
 
@@ -112,13 +112,13 @@ h1 {
 }
 .i-location {
     width: 50px;
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 .input-recherche {
-    border-top: solid 1px #F2F2F2;
-    border-bottom: solid 1px #F2F2F2;
+    border-top: solid 1px var(--main-bg-color);
+    border-bottom: solid 1px var(--main-bg-color);
     border-right: none;
     border-left: none;
     width: 195px;
@@ -133,8 +133,8 @@ h1 {
     display:none;
 }
 .form-btn {
-    background-color:#0065FC;
-    color: #ffffff;
+    background-color:var(--main-color);
+    color: white;
     font-weight: 700;
     font-size: 18px;
     border-top-right-radius: 15px;
@@ -170,7 +170,7 @@ i {
     max-width: 700px;
 }
 .filtre-btns {
-    background-color:#ffffff;
+    background-color:white;
     border-radius: 25px;
     border: solid 2px #D9D9D9;
     padding: 4px 19px 4px 19px;
@@ -182,7 +182,7 @@ i {
     cursor: pointer;
 }
 .filtre-btns:hover {
-    background-color: #DEEBFF;
+    background-color: var(--filter-bg-color);
 }
 
 .info-txt {
@@ -359,7 +359,7 @@ i {
 }
 footer{
     display: grid;
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     grid-template-columns: 1fr 1fr 1fr;
 }
 .footer-title{
@@ -462,9 +462,9 @@ footer{
         padding-top: 30px;
     }
     .anchor-link:hover{
-        border-bottom: solid 2px #0065FC;
+        border-bottom: solid 2px var(--main-color);
         border-top: none;
-        color: #0065FC;
+        color: var(--main-color);
         padding-bottom: 13px;
         padding-top: 30px;
          
@@ -503,7 +503,7 @@ footer{
     .hebergements-and-populaires {
         display: flex;
         flex-direction: column-reverse;
-        background-color:#F2F2F2;
+        background-color:var(--main-bg-color);
         gap: 35px;
     }
     .hebergements-and-populaires section {
@@ -521,10 +521,10 @@ footer{
     .populaires-cards a {
         width: 100%;
     }
-    .hebergements {
-        background-color: white!important;
-        border-radius: 0!important;
-        padding-top: 35px !important;
+    #hebergements {
+        background-color: white;
+        border-radius: 0;
+        padding-top: 35px;
     }
     .container-card-hebergements {
         display: flex;
