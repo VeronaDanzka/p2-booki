@@ -13,9 +13,12 @@ html {
 .fa-solid {
     color: var(--main-color);
 }
+
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin:0;
 }
 .main-container {
@@ -612,4 +615,37 @@ footer{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 0.5fr 1fr;
     }
+}
+@keyframes toAndFro {
+        from { transform: translateX(calc(-1 * 5px)); }
+        to   { transform: translateX(5px); }
+    }
+.figma-banner{
+    height: auto;
+    background-color:beige;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.figma-banner div {
+    width: 100%;
+    text-align: start;
+}
+
+.figma-banner div a{
+    color: black;
+    margin-right: 5px;
+    display: inline-block; 
+    animation: toAndFro 1s ease-in-out infinite alternate;
+    will-change: transform;
+    text-decoration: underline;
+}
+.figma-link{
+    color: blue;
+    text-decoration: underline;
 }
