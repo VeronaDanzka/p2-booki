@@ -641,9 +641,11 @@ footer{
     color: black;
     margin-right: 5px;
     display: inline-block; 
+    text-decoration: underline;
+}
+.figma-banner div a span{
     animation: toAndFro 1s ease-in-out infinite alternate;
     will-change: transform;
-    text-decoration: underline;
 }
 .figma-link{
     color: blue;
